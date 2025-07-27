@@ -6,9 +6,6 @@
     border: solid 2px transparent;
 }
 
-body { 
-    font-family: Arial, sans-serif;
-}
 
 header { 
     display: flex;
@@ -36,7 +33,7 @@ header {
 .btn { 
     padding: 6px;
     border-radius: 5px;
-    background-color: white;;
+    background-color: white;
     color: black;
     gap: 20px;
 }
@@ -103,7 +100,8 @@ h3 {
     text-align: center;
     gap: 20px;
     padding: 10px;
-    border: solid 2px black;
+    border: solid 2px transparent;
+    margin-bottom: 20px;
 }
 
 .contact-us p { 
@@ -112,8 +110,21 @@ h3 {
 
 .subscribe { 
     display: flex;
-    align-content: center;
     justify-content: center;
+}
+
+#subscribe { 
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+#subscribe:hover { 
+    background-color: black; 
+    color: white;
+    transition: ease-in 0.4s;
+    cursor: pointer;
 }
 
 fieldset { 
@@ -128,6 +139,15 @@ fieldset {
 #submit { 
     padding: 6px;
     border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#submit:hover { 
+    background-color: black;
+    color: white;
+    transition: 0.4s ease-out;
+    cursor: pointer;
 }
 
 

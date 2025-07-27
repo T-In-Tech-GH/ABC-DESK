@@ -2,16 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
+  border: solid 1px transparent;
 }
 
 body { 
   font-family: Arial, sans-serif;
 }
 
+h1 { 
+  color: black;;
+}
+
 h2 { 
   text-align: center;
-  font-size: 2rem;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.reminder { 
+  text-align: center;
+  margin: 20px;
 }
 
 .header { 
@@ -19,16 +29,13 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #1e1b1c;
+  box-shadow: 1px 2px 2px 3px black;
+
 }
 
 .logo { 
   width: 30px;
   height: 30px;
-}
-
-.nav { 
-  display: flex;
 }
 
 .nav-list { 
@@ -58,7 +65,8 @@ h2 {
 .btn { 
   cursor: pointer; 
   padding: 3px;
-  background-color: #ffffee;
+  background-color: black;
+  color: white;
   border: none;
   padding: 7px;
   border-radius: 5px;
@@ -66,13 +74,26 @@ h2 {
 }
 
 .btn:hover { 
-  background-color: hsl(0, 0%, 34%);
+  background-color: black;
   transition: background-color 0.5s ease;
+  box-shadow: 3px 3px 4px hsl(124, 100%, 73%)
 }
 
 img { 
-  width: 25%;
-  margin: 10px auto;
+  width: 100%;
+}
+
+.reminder {
+   justify-content: center;
+}
+
+input {
+   margin: 7px 7px;
+   cursor: pointer;
+}
+
+input:hover { 
+  box-shadow: 3px 3px 3px 3px;
 }
 
 .btn-card { 
@@ -92,14 +113,60 @@ img {
   transition: background-color 0.5s ease;
 }
 
-footer { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.cart-items { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.button-card { 
+  cursor: pointer; 
+  padding: 7px;
+  background-color: #1e1b1c;
+  color: #ffffee;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.button-card:hover { 
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s ease;
+  box-shadow: 2px 2px 3px hsl(0, 0%, 34%)
 }
  
 .footer-columns { 
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     gap: 20px;
+    margin-top: 50px;
+}
+
+.subscribe { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.submit-btn { 
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+
+}
+
+.submit-btn:hover { 
+  transition: background-color 0.5s ease-in-out;
+  background-color: red;
 }
 

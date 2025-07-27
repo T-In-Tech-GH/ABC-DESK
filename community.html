@@ -7,45 +7,44 @@
     <link rel="stylesheet" href="community.css">
 </head>
 <body>
-    <header>
-        <div><img src="ABC Logo black.png" alt="ABC Fitness Logo" id="logo"></div>
-    <nav>
-        <h1>ABC Fitness</h1>
-            <ul>
+     <header class="header">
+        <img src="ABC Logo red.png" id="logo">
+        <h1 class="title">ABC Fitness</h1>
+        <nav class="nav">
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About us</a></li>
-                <li><a href="community.html">Community</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="community.html">News</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
-            </nav>
-
-            <div>
-        <button class="signin" id="signin">Sign in</button>
-        <button class="signup" id="signup">Sign up</button>
-          </div>
+        </nav>
+   
+    <div class="auth-buttons">
+        <button class="btn" id="signup">Sign up</button>
+        <button class="btn" id="signin">Sign in</button>
+    </div>
     </header>
-    <main> 
-        <h1>Whats New!</h1>
+    <main class="whats-new"> 
+        <h1 >Whats New!</h1>
         <p>We have group kickboxing and pilates areas in our gym so if you want to have a pilate or yoga sesh with friends and family!</p>
-        <p>Shop at our new online store and buy some customizeable ABC Merch</p>
-
-        <h2>Upcoming</h2>
+        <h2 class="upcoming">Upcoming</h2>
         <p></p>
     </main>
     <footer>
-        <section>
+        <div class="contact-us">
             <h3>Contact Us</h3>
             <p>Email: FitnessABC.gmail.com</p>
-        </section>
-        <section>
-        <p>Follow for the lastest trends: </p>
+            <p>Instagram: ABC_Fitness
+            <p>Facebook: ABC Fitness</p>
+            </p>
         <fieldset>
-            <legend>Subscribe to our newsletter</legend>
-            <form action="#" method="post">
+            <legend class="subscribe">Subscribe to our newsletter</legend>
+            <form action="#" method="post" class="subscribe-form">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
                 <button type="submit">Subscribe</button>
             </form>
+            </div>
         </fieldset>
         </section>
     </footer>
