@@ -21,13 +21,13 @@ header {
 }
 
 .nav { 
-    display: flex;;
+    display: flex;
 }
 
 .nav-list { 
     display: flex;
     list-style: none; 
-    gap: 25px;
+    gap: 30px;
 }
 
 .btn { 
@@ -35,7 +35,7 @@ header {
     border-radius: 5px;
     background-color: white;
     color: black;
-    gap: 20px;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 .btn:hover { 

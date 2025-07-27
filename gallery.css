@@ -30,7 +30,6 @@ h2 {
   align-items: center;
   padding: 20px;
   box-shadow: 1px 2px 2px 3px black;
-
 }
 
 .logo { 
@@ -81,6 +80,7 @@ h2 {
 
 img { 
   width: 100%;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .reminder {
@@ -162,7 +162,7 @@ input:hover {
   border-radius: 5px;
   background-color: black;
   color: white;
-
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .submit-btn:hover { 
