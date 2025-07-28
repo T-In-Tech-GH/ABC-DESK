@@ -17,7 +17,8 @@ header {
 .logo { 
     width: 40px;
     height: 40px;
-    box-shadow: 2px 5px 10px #1e1b1c
+    box-shadow: 2px 5px 10px #1e1b1c;
+    border-radius: 20px;
 }
 
 .nav { 
