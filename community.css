@@ -62,43 +62,46 @@ nav ul li:visited {
 
 .btn { 
    background-color: white;
-   border: solid 2px red;
+   border: solid 2px black;
    border-radius: 5px;
    padding: 6px;
 }
 
 .btn:hover {
-     background-color: black;
-     color: white;
-     box-shadow: 1px 2px 1px 2px red;
+     background-color: white;
+     color: black;
+     box-shadow: 1px 2px 1px 2px black;
      transition: 0.2s ease-in-out;
      cursor: pointer;
 }
 
-.whats-new {
+main { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+}
+
+.whats-new {
     margin: 20px;
+    padding: 20px;
     border: solid 2px transparent;
 }
 
 
 .upcoming {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
+    margin-top: 20px;
     border: solid 2px transparent;
+}
+
+.community { 
+   margin-top: 20px;
 }
 
 .contact-us {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 20px;
     margin: 20px;
     border: solid 2px transparent;
@@ -107,6 +110,9 @@ nav ul li:visited {
 
 .socials { 
     margin: 30px;
+    display: flex;
+    border: 2px solid white;
+    
 }
 
 .email-form {
@@ -117,6 +123,22 @@ nav ul li:visited {
 
 .email { 
     margin-bottom: 30px;
+}
+
+#sub { 
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+
+#sub:hover { 
+    background-color: white;
+    box-shadow: 2px 1px 1px 2px black;
+    color: black;
 }
 
 
