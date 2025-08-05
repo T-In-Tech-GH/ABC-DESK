@@ -31,6 +31,11 @@ header {
     gap: 30px;
 }
 
+.auth-buttons { 
+    gap: 15px;
+    display: flex;
+}
+
 .btn { 
     padding: 6px;
     border-radius: 5px;
