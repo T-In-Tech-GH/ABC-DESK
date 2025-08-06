@@ -21,6 +21,11 @@ h1 {
   text-shadow: 2px 2px 5px gray;
 }
 
+ h4 { 
+  text-align: center;
+  color: black;
+}
+
 .logo { 
   width: 40px;
   height: 40px;
