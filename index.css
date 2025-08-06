@@ -103,13 +103,30 @@ main {
   margin-top: 10px;
 }
 
+.kickboxing { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1 1 auto;
+}
+
 .kickboxing-image {
-   max-height: 130px;
+  max-height: 130px;
   height: auto;
   border-radius: 10px;
   box-shadow:  10px 10px 20px green;
   border: 2px solid white;
   margin: 20px;
+}
+
+.solopilates { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .pilates-image { 
@@ -119,6 +136,14 @@ main {
   box-shadow:  10px 10px 20px red;
   border: 2px solid white;
   margin: 20px;
+}
+
+.soloyoga { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .yoga-image { 
@@ -151,4 +176,3 @@ footer {
   cursor: pointer; 
   box-shadow: 2px 2px 6px gray;
 }
-
