@@ -147,7 +147,22 @@ footer {
   padding: 1rem;
 }
 
-fieldset  { 
+.contact-us { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.follow-us { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+fieldset { 
   border: 1px solid black;
   padding: 1rem;
   margin-top: 1rem;
@@ -167,7 +182,13 @@ fieldset  {
   box-shadow: 2px 2px 6px gray;
 }
 
-@media (max-width: 600px) and (min-width: 320px) { 
+@media (max-width: 768px) { 
+  header { 
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  }
+
   .kickboxing, .solopilates, .soloyoga { 
     flex-direction: column;
     align-items: center;
