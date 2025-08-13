@@ -13,7 +13,7 @@ body {
   display: flex; 
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 1.5rem;
   box-shadow: 1px 2px 2px 3px black;
 }
 
@@ -40,7 +40,7 @@ h1 {
 .nav-list { 
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 1rem;
 }
 
 .nav-iitem a { 
@@ -67,9 +67,9 @@ h1 {
   background-color: black;
   color: #ffffff;
   border: none;
-  padding: 7px;
+  padding: 0.4rem;
   border-radius: 5px;
-  margin-top: 4px;
+  margin-top: 0.3rem;
   cursor: pointer;
 }
 
@@ -79,28 +79,12 @@ h1 {
   box-shadow: 2px 2px 5px black;
 }
 
-.btn-card { 
-  cursor: pointer; 
-  padding: 3px;
-  background-color: #1e1b1c;
-  color: #ffffee;
-  padding: 7px;
-  border-radius: 5px;
-  margin-top: 4px;
-} 
-
-.btn-card:hover { 
-  cursor: pointer;
-  background-color: hsl(0, 0%, 34%);
-  transition: background-color 0.5s ease;
-}
-
 main { 
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  margin-top: 10px;
+  padding: 3rem;
+  margin-top: 1rem;
 }
 
 .kickboxing { 
@@ -118,7 +102,7 @@ main {
   border-radius: 10px;
   box-shadow:  10px 10px 20px green;
   border: 2px solid white;
-  margin: 20px;
+  margin: 1.2rem;
 }
 
 .solopilates { 
@@ -126,7 +110,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 1.5rem;
 }
 
 .pilates-image { 
@@ -135,7 +119,7 @@ main {
   border-radius: 10px;
   box-shadow:  10px 10px 20px red;
   border: 2px solid white;
-  margin: 20px;
+  margin: 1.2rem;
 }
 
 .soloyoga { 
@@ -143,7 +127,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 1.5rem;
 }
 
 .yoga-image { 
@@ -152,7 +136,7 @@ main {
   border-radius: 10px;
   box-shadow:  10px 10px 20px black;
   border: 2px solid white;
-  margin: 20px;
+  margin: 1.5rem;
 }
 
 footer { 
@@ -160,10 +144,16 @@ footer {
   border: solid 1px transparent;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 1rem;
 }
 
-#subscribe { 
+fieldset  { 
+  border: 1px solid black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#subscribe-btn { 
   background-color: red;
   border-radius: 4px;
   padding: 3px;
@@ -175,4 +165,20 @@ footer {
   transition: background-color 0.5s ease;
   cursor: pointer; 
   box-shadow: 2px 2px 6px gray;
+}
+
+@media (max-width: 600px) and (min-width: 320px) { 
+  .kickboxing, .solopilates, .soloyoga { 
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kickboxing-image, .pilates-image, .yoga-image { 
+    max-height: 100px;
+  }
+
+  .nav-list { 
+    flex-direction: column;
+    align-items: center;
+  }
 }
